@@ -127,13 +127,13 @@ body {
 	--blurple-inverted: #fff;
 	--blurple-inverted-hover: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
 	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
-	--text-brand: var(--blurple);
-	--bg-brand: var(--blurple);
+	--text-brand: #5867ea;
+	--bg-brand: #5867ea;
 	--brand-260: var(--brand-experiment-260);
 	--brand-360: var(--brand-experiment-360);
 	--brand-460: var(--brand-experiment-460);
 	--brand-500: var(--brand-experiment);
-	--brand-new-500: var(--blurple);
+	--brand-new-500: #5867ea;
 	--brand-530: var(--brand-experiment-530);
 	--brand-560: var(--brand-experiment-560);
 	--brand-new-560: var(--brand-560);
@@ -234,6 +234,13 @@ body {
 .cardPrimary__73069 {
 	--__card-accent-color: var(--background-secondary) !important;
 }
+
+
+
+
+
+
+
 
 :root {
 	--custom-channel-header-height: 48px;
@@ -511,8 +518,11 @@ code {
     font-size: 12px;
 }
 
+
+
+
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--background-base-low: #313338;
+	--background-base-low: #232428;
 	--background-base-lower: #313338;
 	--background-base-lowest: #2b2d31;
 	--bg-base-tertiary: #1e1f22;
@@ -637,7 +647,7 @@ code {
 			stroke-width: 0;
 		}
 		.refreshIcon__001a7 {
-			fill: var(--blurple);
+			fill: #5867ea;
 			r: 6
 		}
 	}
@@ -1722,4 +1732,10 @@ code {
 
 .channelTextAreaInner_fb64c9.channelTextAreaInnerFocused__42399 .scrollableContainer_d0696b .webkit__8d35a {
     border-color: #0080ff;
+}
+.grabber_a562c8 {
+  transform: translateY(-5px); /* Move up by 5px */
+}
+div.checkbox_f525d3.box_f525d3.checked_f525d3 {
+  background-color: #5867ea; /* Set background color to #5867ea */
 }
