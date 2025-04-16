@@ -1,34 +1,74 @@
 # NewerOldCord
 
-A fork of OldCord designed to bring the 2020 Discord UI closer to the look and feel of Discord in 2024.
-
-### Key Features:
-- Restores the classic 2020 Discord interface while aiming to look more like the 2024 version.
-- Removes profile effects, profile colors, avatar decos, and banners (these are revertable via addons).
+**A personal passion project to bring back the previous Discord UI.**  
+_NewerOldCord is a fork of OldCord, revamped to look more like the Discord interface that was just replaced — keeping the classic layout, but updating the visuals to feel more in line with recent design._
 
 ---
 
-## Installation
+## ❗ Disclaimer
 
-### BetterDiscord
+Hey there! Just a quick heads-up:
 
-1. Download `OldCord.theme.css` (Right-click > "Save As").
-2. Save the file in the BetterDiscord theme folder:
-   - Windows: `%appdata%/BetterDiscord/themes`
-   - Linux: `~/.config/BetterDiscord/themes`
+**NewerOldCord** is a fork of the original **OldCord** theme. With Discord rolling out a brand new UI, the old OldCord layout started to feel a bit outdated — so I decided to give it a refresh.
 
-### Vencord
+The goal of this project is to **update OldCord to better resemble the Discord UI that was just retired**, keeping the structure of the older layout while modernizing it to look more like the recent version that many users were familiar with.
 
-#### Local Method:
-1. Download `OldCord.theme.css` (Right-click > "Save As").
-2. Move the file to the Vencord theme folder:
-   - `Settings > Themes > Open theme folder`
+I'm very much an **amateur** — not a CSS expert — and this is all built through trial, error, and lots of tweaking. I'm learning as I go and will keep making improvements as I figure things out.
+
+I made this theme for myself, but figured others might also want a cleaner, more familiar feel. Feel free to use, fork, or build on it. Just note that I may not be able to provide support or frequent updates.
+
+Thanks for checking it out!
+
+---
+
+## 🔦 What This Theme Does
+
+- Keeps the **classic Discord layout** inspired by OldCord.
+- Updates visual styling to match the **previous (pre-2024) Discord UI**, not the new one.
+
+> ⚠️ **Light Mode is not supported.**  
+> This theme was built for dark mode only — it hasn’t been tested or styled for light mode.
+
+---
+
+## 🛠 Installation
+
+You can use this theme with **BetterDiscord**, **Vencord**, or any modded client that supports custom CSS.
+
+---
+
+### ✅ BetterDiscord
+
+1. [Download `NewerOldCord.css`](https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css)  
+   (Right-click > "Save As")
+2. Move it to your themes folder:  
+   - **Windows**: `%appdata%/BetterDiscord/themes`  
+   - **Linux**: `~/.config/BetterDiscord/themes`
+3. Enable the theme in your BetterDiscord settings.
+
+---
+
+### ✅ Vencord
+
+#### Local Installation:
+1. [Download `NewerOldCord.css`](https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css)
+2. In Discord: `Settings > Vencord > Themes > Open Theme Folder`
+3. Place the file in that folder and enable it.
 
 #### Online Method:
-Paste the following link in **Settings > Themes**:
-- `https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css`
+1. Go to `Settings > Vencord > Themes`
+2. Click “Add Theme” and paste this URL:
 
-### Other:
-To manually import the theme:
+```
+https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css
+```
+
+---
+
+### 🎛 Manual Import via CSS
+
+You can also import it directly with:
+
 ```css
 @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css");
+```
