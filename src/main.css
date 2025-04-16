@@ -118,9 +118,9 @@
 }
 body {
 	--text-muted: #72767d;
-	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	--font-headline: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-primary: gg sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-display: gg sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	--font-headline: gg sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--blurple: var(--brand-experiment);
 	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
 	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
@@ -464,58 +464,47 @@ body {
 
 
 
-/** Fonts*/
+/** Fonts */
 @font-face {
-    font-family: "Whitney";
+    font-family: "gg sans";
     font-weight: 300;
-    src: url(https://milbits.github.io/oldcord/src/assets/thin.woff2) format("woff2");
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/normal.woff2);
+    font-family: "gg sans";
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: "Whitney";
+    font-family: "gg sans";
     font-style: italic;
-    src: url(https://milbits.github.io/oldcord/src/assets/cursive.woff2);
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansitalic.woff2) format("woff2");
 }
 
 @font-face {
+    font-family: "gg sans";
     font-weight: 500;
-    font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/kindaBold.woff2);
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansmedium.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: "Whitney";
+    font-family: "gg sans";
     font-weight: 600;
-    src: url(https://milbits.github.io/oldcord/src/assets/bold.woff2) format("woff2");
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsanssemibold.woff2) format("woff2");
 }
 
 @font-face {
+    font-family: "gg sans";
     font-weight: 700;
-    font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/veryBold.woff2);
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbold.woff2) format("woff2");
 }
 
 @font-face {
+    font-family: "gg sans";
     font-weight: 700;
     font-style: italic;
-    font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
-}
-
-code {
-    font-family: "Source Code Pro";
-}
-
-.eyebrow /*rare NORMAL class??!?!??!?!!*/
-{
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 12px;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbolditalic.woff2) format("woff2");
 }
 
 
@@ -1873,4 +1862,14 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
 }
 .circleIcon__5bc7e {
     color: var(--green);
+}
+.gradientBackground__11664 {
+    background-color: black;
+    contain: layout style size;
+    filter: blur(00px);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
