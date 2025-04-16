@@ -11,6 +11,20 @@ _NewerOldCord is a fork of [OldCord](https://github.com/milbits/oldcord), revamp
 
 ---
 
+# Need Old UI Screenshots
+
+I'm missing a lot of visual references from the old Discord UI for my theme. Stuff like:
+
+    Pinned messages
+    Inbox / Mentions
+    Server settings
+    Notification dropdowns
+    User popouts / profiles
+    Member list or role popups
+
+I don’t have many screenshots of those, and memory does NOT serve me well. If you have anything, screenshots, clips, whatever—post them here. Even rough ones help a lot.
+
+
 ## ❗ Disclaimer
 
 **NewerOldCord** is a fork of the original **OldCord** theme. With Discord rolling out a brand new UI, the old OldCord layout started to feel a bit outdated — so I decided to give it a refresh.
