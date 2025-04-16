@@ -1742,9 +1742,6 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
     margin: 0; /* Remove any margin */
 }
 
-.wrapper_cc5dd2 {
-    width: 57px !important; /* Set the width to 59px */
-}
 .lookFilled__201d5.colorBrand__201d5 {
     background-color: #5867ea;
 }
@@ -1892,3 +1889,17 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
     position: relative;
 }
 
+/* Today at */
+:is(.timestampInline_c19a55) time[aria-label^="Today at"] {
+    visibility: hidden;
+}
+
+:is(.timestampInline_c19a55) time[aria-label^="Today at"]:before {
+    content: attr(aria-label);
+    visibility: visible;
+}
+.visual-refresh {
+    .listItem__650eb {
+        width: 72px;
+    }
+}
