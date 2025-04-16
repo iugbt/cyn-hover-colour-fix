@@ -7,23 +7,17 @@ _NewerOldCord is a fork of OldCord, revamped to look more like the Discord inter
 
 ## ❗ Disclaimer
 
-Hey there! Just a quick heads-up:
-
 **NewerOldCord** is a fork of the original **OldCord** theme. With Discord rolling out a brand new UI, the old OldCord layout started to feel a bit outdated — so I decided to give it a refresh.
 
 The goal of this project is to **update OldCord to better resemble the Discord UI that was just retired**, keeping the structure of the older layout while modernizing it to look more like the recent version that many users were familiar with.
 
-I'm very much an **amateur** — not a CSS expert — and this is all built through trial, error, and lots of tweaking. I'm learning as I go and will keep making improvements as I figure things out.
-
-I made this theme for myself, but figured others might also want a cleaner, more familiar feel. Feel free to use, fork, or build on it. Just note that I may not be able to provide support or frequent updates.
-
-Thanks for checking it out!
+I'm very much an **amateur** — not a CSS expert — and this is all built through trial, error, and lots of tweaking. This is not going to be a long term project, I'm only doing this for myself for now and sharing it. The theme will break with subsequent discord updates, I do not know if I'll have the motivation or will to fix issues that will arise in the future.
 
 ---
 
 ## 🔦 What This Theme Does
 
-- Keeps the **classic Discord layout** inspired by OldCord.
+- Keeps the **classic Discord layout** based on OldCord.
 - Updates visual styling to match the **previous (2024) Discord UI**
 
 > ⚠️ **Light Mode is not supported.**  
