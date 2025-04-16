@@ -22,7 +22,7 @@ I'm missing a lot of visual references from the old Discord UI for my theme. Stu
     User popouts / profiles
     Member list or role popups
 
-I don’t have many screenshots of those, and memory does NOT serve me well. If you have anything, screenshots, clips, whatever—post them here. Even rough ones help a lot.
+I don’t have many screenshots of those, and memory does NOT serve me well. If you have anything, screenshots, clips, whatever—post them on this [server](https://discord.gg/aAHWPZHfs2). Even rough ones help a lot.
 
 
 ## ❗ Disclaimer
