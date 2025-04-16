@@ -23,7 +23,7 @@
 	--background-modifier-accent: #ffffff0f;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.051);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.078);
-	--background-message-hover: #04040512;
+	--background-message-hover: #2e3034;
 	--background-help-warning: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.102);
 	--background-help-info: #00b0f41a;
 	--scrollbar-thin-thumb: #202225;
@@ -1660,8 +1660,8 @@ code {
     }
     .wrapper__48112 {
 		.expandedFolderBackground__48112 {
-		    left: 15px;
-	        width: 50px;
+		    left: 10px;
+	        width: 54px;
 	        bottom: 4px;
 	        border-radius: 16px 16px 25px 25px;
 	        background: var(--background-modifier-accent);
@@ -1739,3 +1739,87 @@ code {
 div.checkbox_f525d3.box_f525d3.checked_f525d3 {
   background-color: #5867ea; /* Set background color to #5867ea */
 }
+.newMessagesBar__0f481 {
+  background-color: #5867ea;
+}
+document.querySelectorAll('time[aria-label]').forEach(el => {
+  const label = el.getAttribute('aria-label');
+  if (label) {
+    el.innerText = label;
+  }
+});
+
+.visual-refresh .listItem__650eb {
+    margin: 0; /* Remove any margin */
+}
+
+.wrapper_cc5dd2 {
+    width: 57px !important; /* Set the width to 59px */
+}
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: #5867ea;
+}
+
+.body__24502 {
+    background-color: #212224;
+}
+
+.fullSize_c0bea0 {
+	background-color: #212224;
+}
+
+.grid__623de {
+	background-color: #2a2b2e;
+}
+.visual-refresh .container__37e49 {
+	background-color: #232428;
+}
+
+.grabber_a562c8 {
+	position: relative; /* or absolute */
+    top: -1px;
+    width: 10px;
+    height: 24px;
+    margin-left: -5px;
+    border-radius: 3px;
+}
+.stack_dbd263 {
+	background-color: #1e1f22;
+}
+
+.header_f37cb1 {
+    box-shadow: none !important;
+}
+
+.header_f37cb1 {
+    box-shadow: var(--shadow-ledge);
+    box-sizing: border-box;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 0px 0px;
+    position: 0;
+    z-index: 0;
+    background-color: none;
+}
+
+.headerEllipseBackdrop_f37cb1 {
+    opacity: 0;
+}
+
+.headerEllipseForeground_f37cb1 {
+    opacity: 0;
+    background: transparent;
+}
+
+.visual-refresh .bannerImage_f37cb1, .visual-refresh .bannerImg_f37cb1 {
+    width: 240px;
+    height: 130px;
+    aspect-ratio: auto; /* Ensure aspect ratio doesn't conflict */
+}
+.visual-refresh {
+    .wrapper_f7ecac:not(.popover_c97e55) {
+        background: #2a2b30; /* Black background */
+    }
+}
+
+.expandedFolderBackground
