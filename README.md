@@ -24,7 +24,7 @@ Thanks for checking it out!
 ## 🔦 What This Theme Does
 
 - Keeps the **classic Discord layout** inspired by OldCord.
-- Updates visual styling to match the **previous (pre-2024) Discord UI**, not the new one.
+- Updates visual styling to match the **previous (2024) Discord UI**
 
 > ⚠️ **Light Mode is not supported.**  
 > This theme was built for dark mode only — it hasn’t been tested or styled for light mode.
