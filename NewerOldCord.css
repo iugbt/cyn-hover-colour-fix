@@ -1069,7 +1069,7 @@ body {
 	.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
 		grid-area: sidebar;
 		width: 240px;
-		--custom-app-panels-height: 0;
+		--custom-app-panels-height: 0px ;
 	}
 	.base_c48ade .sidebar_c48ade > .sidebarResizeHandle_c48ade,
 	:root .base_c48ade .sidebar_c48ade:after {
@@ -1259,7 +1259,7 @@ body {
 		height: 30px;
 	}
 	.themedBackground__74017 {
-		background: var(--bg-overlay-3, var(--channeltextarea-background));
+		background: none
 	}
 	.formWithLoadedChatInput_f75fb0 {
 	    padding-left: 16px !important;
@@ -1664,6 +1664,7 @@ body {
 	        width: 50px;
 	        height: 50px;
 	        overflow: hidden;
+			
 	        border-radius: 16px;
 			--bg-mod-subtle: rgba(114, 137, 218, 0.4) !important;
 		}
@@ -1747,7 +1748,7 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
 }
 
 .body__24502 {
-    background-color: #212224;
+    background-color: transparent ; /* Primary background color */
 }
 
 .fullSize_c0bea0 {
@@ -1824,9 +1825,6 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
   display: none !important;
 }
 
-.inner_c0bea0.biteSize_c0bea0 {
-    background: #1e1f22; /* Black background */
-}
 .upsellContainer__4a7f0 {
   all: unset !important;
   display: none !important;
@@ -1902,4 +1900,36 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
     .listItem__650eb {
         width: 72px;
     }
+}
+.visual-refresh .replyBar__841c8, .visual-refresh .threadSuggestionBar__841c8 {
+    background-color: #28292c ;
+}
+.outer_c0bea0 {
+  --theme-base-color-amount: 50%;
+  --theme-text-color-amount: 25%;
+}
+
+.bar__7aaec {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  tab-index: 0;
+}
+
+.unreadIcon__7aaec {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  display: inline-block;
+}
+
+.bar__7aaec .unreadIcon__7aaec path {
+  fill: currentColor;
+}
+
+.text-xs\/semibold_cf4812 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--interactive-normal);
+  margin-left: 8px;
 }
