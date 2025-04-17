@@ -1748,7 +1748,7 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
 }
 
 .body__24502 {
-    background-color: #212224;
+    background-color: transparent ; /* Primary background color */
 }
 
 .fullSize_c0bea0 {
@@ -1825,9 +1825,6 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
   display: none !important;
 }
 
-.inner_c0bea0.biteSize_c0bea0 {
-    background: #1e1f22; /* Black background */
-}
 .upsellContainer__4a7f0 {
   all: unset !important;
   display: none !important;
@@ -1906,4 +1903,8 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
 }
 .visual-refresh .replyBar__841c8, .visual-refresh .threadSuggestionBar__841c8 {
     background-color: #28292c ;
+}
+.outer_c0bea0 {
+  --theme-base-color-amount: 50%;
+  --theme-text-color-amount: 25%;
 }
