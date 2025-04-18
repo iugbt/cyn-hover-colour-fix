@@ -212,7 +212,6 @@ body {
 	--text-danger: var(--red);
 	--info-danger-foreground: var(--red);
 	--status-danger-background: var(--red);
-	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 	/* activity colors*/
@@ -1732,12 +1731,6 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
 .newMessagesBar__0f481 {
   background-color: #5867ea;
 }
-document.querySelectorAll('time[aria-label]').forEach(el => {
-  const label = el.getAttribute('aria-label');
-  if (label) {
-    el.innerText = label;
-  }
-});
 
 .visual-refresh .listItem__650eb {
     margin: 0; /* Remove any margin */
@@ -1772,10 +1765,6 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
 }
 .stack_dbd263 {
 	background-color: #1e1f22;
-}
-
-.header_f37cb1 {
-    box-shadow: none !important;
 }
 
 .header_f37cb1 {
@@ -1896,14 +1885,17 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
     content: attr(aria-label);
     visibility: visible;
 }
+
 .visual-refresh {
     .listItem__650eb {
         width: 72px;
     }
 }
+
 .visual-refresh .replyBar__841c8, .visual-refresh .threadSuggestionBar__841c8 {
     background-color: #28292c ;
 }
+
 .outer_c0bea0 {
   --theme-base-color-amount: 50%;
   --theme-text-color-amount: 25%;
@@ -1933,3 +1925,27 @@ document.querySelectorAll('time[aria-label]').forEach(el => {
   color: var(--interactive-normal);
   margin-left: 8px;
 }
+
+.sidebar_c48ade.hidden_c48ade {
+    position: absolute !important;
+}
+
+.container__9293f, .container__9293f * {
+    box-sizing: border-box;
+}
+
+.wrapper_cb9592 {
+	z-index: 102;
+}
+.visual-refresh {
+    .searchBar__97492 {
+        background: var(--bg-overlay-3, var(--background-tertiary));
+        /* padding: 0 2px; */
+        height: 24px;
+        width: 144px;
+        border-radius: 4px;
+        border: none;
+        margin-right: px;
+    }
+}
+
