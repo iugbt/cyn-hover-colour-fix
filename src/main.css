@@ -1878,7 +1878,7 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
     position: relative;
 }
 
-/* Today at */
+/* Adds "Today at" to messages sent today */
 :is(.timestampInline_c19a55) time[aria-label^="Today at"] {
     visibility: hidden;
 }
@@ -1888,6 +1888,7 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
     visibility: visible;
 }
 
+/* Fixes padding of Server List Sidebar */
 .visual-refresh {
     .listItem__650eb {
         width: 72px;
@@ -1907,9 +1908,9 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
   display: flex;
   align-items: center;
   cursor: pointer;
-  tab-index: 0;
 }
 
+/* Placeholder */
 .unreadIcon__7aaec {
   width: 14px;
   height: 14px;
@@ -1917,17 +1918,19 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
   display: inline-block;
 }
 
+/* Placeholder */
 .bar__7aaec .unreadIcon__7aaec path {
   fill: currentColor;
 }
 
+/* removes padding on guild (clan) tags next to usernames */
 .text-xs\/semibold_cf4812 {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--interactive-normal);
-  margin-left: 8px;
 }
 
+/* Removes the sidebar when fullscreen in a livestream */
 .sidebar_c48ade.hidden_c48ade {
     position: absolute !important;
 }
@@ -1939,17 +1942,14 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
 .wrapper_cb9592 {
 	z-index: 102;
 }
-.visual-refresh {
-    .searchBar__97492 {
-        background: var(--bg-overlay-3, var(--background-tertiary));
-        /* padding: 0 2px; */
-        height: 24px;
-        width: 144px;
-        border-radius: 4px;
-        border: none;
-        margin-right: px;
-    }
+
+/* Apply a 3px downward shift to the help and inbox icons */
+:is(.platform-win) .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8)  {
+	transform: translateY(3px)
 }
 
-
-
+/* Resizes the leftmost icon of the typing bar */
+.button_e6e74f .lottieIcon__5eb9b svg {
+  width: 26px !important;
+  height: 26px !important;
+}
