@@ -980,9 +980,6 @@ body {
 	.root__49fc1, .container_e45859, .searchBar__5ec2f, .tooltip__382e7, .link__2ea32, .container_a45028, .container__91a9d, .option__56fec {
 		border-radius: 4px;
 	}
-	.button__201d5:not(.cta_a3a802) {
-		border-radius: 3px;
-	}
 	.select__3f413 {
 	    border: 1px solid transparent;
 	    cursor: pointer;
@@ -1683,7 +1680,7 @@ body {
 	    .closedFolderIconWrapper__48112 .guildIcon__48112 {
 	        border-radius: 32px !important;
 		}
-	    gap: 8px !important;
+	    
 	}
 	.listItem__650eb:has(.circleIcon__5bc7e) {
 		.circleIconButton__5bc7e {
@@ -1764,7 +1761,7 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
     border-radius: 3px;
 }
 .stack_dbd263 {
-	background-color: #1e1f22;
+	background-color: var(--bg-base-tertiary);
 }
 
 
@@ -1801,11 +1798,11 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
 }
 
 .itemsContainer_ef3116 {
-    background: #1e1f22; /* Black background */
+	background-color: var(--bg-base-tertiary);
 }
 
 .container_c8ffbb {
-     background: #1e1f22; /* Black background */
+	background-color: var(--bg-base-tertiary);
 }
 
 .bar__3b95d,
@@ -1831,10 +1828,10 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
 }
 
 .list_c441f0 {
-    background-color: #1e1f22 !important;
+	background-color: var(--bg-base-tertiary);
 }
 .header_d9c882 {
-    background-color: #1e1f22 !important;
+	background-color: var(--bg-base-tertiary);
 }
 
 .container__6764b {
@@ -1952,4 +1949,82 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
 .button_e6e74f .lottieIcon__5eb9b svg {
   width: 26px !important;
   height: 26px !important;
+}
+
+/* Changes background color of the forum search bar */
+.container_d9be46 {
+    background-color: var(--background-); 
+    border-radius: 10px; /* Adjust the value to control the roundness of corners */
+}
+
+/* Changes background color of the forum search bar */
+.stepContainer_a68543 {
+    background-color: var(--background-surface-high); 
+    border-radius: 10px; /* Adjust the value to control the roundness of corners */
+}
+
+/* Forum colors */
+.visual-refresh .mainCard_f369db {
+    background: var(--bg-overlay-4, #393c41);
+    border: 1px solid var(--border-subtle);
+}
+.visual-refresh .container_faa96b.isOpen_faa96b {
+    background-color: #393c41 ;
+}
+.visual-refresh .container_faa96b:hover {
+    background-color: #393c41; 
+}
+.visual-refresh.full-motion .pill_a2c9e8 {
+    transition: none
+}
+.visual-refresh .pill_a2c9e8 {
+    background-color: var(--background-base-low);
+}
+
+/* Fixes "new channel" icon colors */
+.newChannel__599fa, .channelInfo_c69b6d {
+    background-color: var(--badge-brand-bg) !important;
+    border-radius: var(--radius-round) !important;
+}
+.stack_dbd263 {
+    background: unset; /* unsure if this breaks anything, remove if it does */
+}
+/* Fixes "SPOILER" text of spoilered images */
+.obscureWarning__54ab5 {
+    color: white;
+}
+.listItem__650eb {
+  width: 80px;
+  height: 50px;
+  transform: translateX(-5px);
+}
+.folderIcon__48112 {
+  opacity: 0;
+}
+.folderIconWrapper__48112 {
+  width: 50px !important;
+  height: 50px!important;
+}
+.expandedIconWrapper__48112 {
+  opacity: 1; /* Ensures it's fully visible */
+  pointer-events: auto; /* Ensures interaction is allowed */
+}
+.folderPreviewWrapper__48112 {
+	width: 50px;
+	height: 50px;
+}
+.folderPreviewWrapper__48112 {
+  transform: translateY(-5px);
+}
+.folderPreviewGuildIcon__48112 {
+    border-radius: 13px 13px 13px 13px;
+}
+.pill_e5445c {
+  transform: translateX(6px);
+}
+.folderPreview__48112 .icon_f34534 {
+  border-radius: 50% !important;
+}
+.folderPreview__48112 {
+  transform: translate(1px, 1px);
 }
