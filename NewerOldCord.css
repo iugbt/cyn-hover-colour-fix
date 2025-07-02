@@ -7,7 +7,7 @@
  */
 
 
-
+@import url("https://milbits.github.io/oldcord/src/components/other.css");
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
 @import url("https://milbits.github.io/oldcord/src/components/vars.css");
 
@@ -19,7 +19,8 @@
 	--bg-base-tertiary: #1e1f22;
 	--custom-channel-members-bg: #2b2d31;
 	--background-mod-subtle: #2b2d31;
-	--bg-brand: var(--blurple) ;
+	--bg-brand: #5867ea ;	
+	--button-filled-brand-background: #5867ea ;
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
 	--interactive-hover: #dcddde;
@@ -246,28 +247,7 @@ body {
     color: white;
 }
 
-/* Fixes Folder Size */
-.folderPreviewWrapper__48112 {
-    width: 50px;
-	height: 50px;
-}
 
-.folderPreview__48112 {
-	width: 40px;
-	height: 40px;
-	gap: 4px;
-}
-
-.visual-refresh .button_e131a9 {
-  background-color: rgb(65, 68, 75) !important;
-}
-
-/* fixes open folder background */
-.folderGroupBackground__48112 {
-    width: 50px;
-    bottom: 0px;
-    border-radius: 16px 16px 16px 16px;
-}
 
 /* Adds "Today at" to messages sent today */
 :is(.timestampInline_c19a55) time[aria-label^="Today at"] {
@@ -322,7 +302,7 @@ body {
 	background-color: #111214;
 }
 .menuOverlay_ce8328 {
-    background-color: #222427 !important;
+    background-color: #ffffff17 !important;
 }
 
 /* removes border of messages in search bar */
@@ -363,4 +343,123 @@ body {
     background-color: #2a2c30;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+/* increases height of gif and emote picker */
+.scrollable-container {
+  max-height: 80vh; /* adjust as needed */
+  overflow-y: auto;
+  transition: max-height 0.3s ease;
+}
+
+.scrollable-container.expanded {
+  max-height: none; /* removes vertical limit */
+}
+.results__2dc39 {
+    height: 1000px !important;
+}
+.contentWrapper__08434 {
+    height: 1000px !important;
+	transform: translateY(-440px) !important;
+}
+
+/* pinned messages */
+.header__45690 {
+    background: var(--scrollbar-auto-track) !important;
+}
+.messagesPopout__45690 {
+    background: var(--scrollbar-auto-track) !important;
+}
+
+/* removes user list left border */
+.container_c8ffbb {
+    border-left: none !important;
+}
+
+/* inbox tab */
+.channelHeader__35a7e {
+    background-color: transparent !important;
+}
+.resultsGroup__56fec {
+    background-color: var(--scrollbar-thin-thumb) !important;
+}
+
+.scroller__2692d,
+.container_a54d1d,
+.Container__4a7f0,
+.emptyScroller__2692d,
+.emptyContainer_a54d1d,
+.emptyContainer__4a7f0 {
+  background-color: rgb(44, 46, 51) !important;
+}
+
+
+/* fix search bar */
+.searchAnswer_bd8186, .searchFilter_bd8186 {
+  transform: translateY(-px) !important;
+  height: 20px !important;
+  font-size: 1em !important;
+}
+.search__97492 .DraftEditor-root .public-DraftStyleDefault-block span {
+  display: inline-block; /* required for transform to take effect */
+  transform: translateY(-0.5px) !important;
+}
+/* Base reset */
+.tab_ab6641,
+.selected_b3f026 {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Base tab styling */
+.tab_ab6641 {
+  position: relative;
+  overflow: visible !important;
+  z-index: 0;
+}
+
+.tab_ab6641::before {
+  content: "";
+  position: absolute;
+  top: 46px;
+  left: -10px;
+  right: -10px;
+  height: 1px;
+  background: var(--blurple);
+  z-index: -1;
+  opacity: 0;
+}
+
+.tab_ab6641.selected_b3f026::before {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out !important; /* only transition when selected */
+}
+
+
+/* user profile card */
+.root__24502, .outer_c0bea0 {
+  background-color: transparent !important;
+}
+
+/* makes server card in mentions tab non transparent */
+.channelHeader__35a7e {
+    background-color: var(--background-secondary) !important;
+
+}
+svg.icon__2ea32:nth-of-type(3) path:nth-of-type(2) {
+  color: red;
+}
+
+
+/* remove black outline on right side on channel side bar */
+div.sidebar_c48ade.theme-dark.images-dark {
+transform: translate(1px);
+}
+
+
+/* fix color of Message Bar */
+.scrollableContainer__74017 {
+  background-color: rgba(255, 255, 255, 0.048);
+
 }
