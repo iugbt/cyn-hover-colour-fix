@@ -7,6 +7,7 @@
  */
 
 
+@import url("https://milbits.github.io/oldcord/src/components/other.css");
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
 @import url("https://milbits.github.io/oldcord/src/components/vars.css");
 
@@ -342,24 +343,6 @@ body {
     background-color: #2a2c30;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-}
-
-/* increases height of gif and emote picker */
-.scrollable-container {
-  max-height: 80vh; /* adjust as needed */
-  overflow-y: auto;
-  transition: max-height 0.3s ease;
-}
-
-.scrollable-container.expanded {
-  max-height: none; /* removes vertical limit */
-}
-.results__2dc39 {
-    height: 1000px !important;
-}
-.contentWrapper__08434 {
-    height: 1000px !important;
-	transform: translateY(-440px) !important;
 }
 
 /* pinned messages */
