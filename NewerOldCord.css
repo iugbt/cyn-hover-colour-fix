@@ -29,7 +29,7 @@
 	--background-modifier-active: #4f545c3d;
 	--background-modifier-selected: #4f545c52;
 	--background-modifier-accent: #ffffff0f;
-	--background-message-hover: #2e3034;
+	--background-message-hover: #32353B;
 	--scrollbar-thin-thumb: #202225;
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #1a1b1e;
@@ -445,3 +445,4 @@ transform: translate(1px);
   background-color: rgba(255, 255, 255, 0.048);
 
 }
+
